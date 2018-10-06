@@ -1,6 +1,7 @@
 body {
-    background-color: #eee;
+    background-color: #f9f9f9;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
 }
 
 p {
@@ -8,7 +9,7 @@ p {
 }
 
 nav {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -19,6 +20,7 @@ nav {
 .logo img {
     position: relative;
     top: 20px;
+    margin-right: .5em;
 }
 
 .links ul {
@@ -27,6 +29,7 @@ nav {
 }
 
 .links li {
+    color: lightgrey;
     display: inline;
     padding: 20px;
 }
@@ -38,6 +41,7 @@ nav {
 main {
     width: 50%;
     margin: 0 auto;
+    padding: 5em;
 }
 
 main h2 {
@@ -57,5 +61,53 @@ main.text {
 main button {
     background-color: lightblue;
     color: white;
-    border-radius: 5px;
+    border-radius: 2px;
+    padding: .8em;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.date {
+    color: lightgrey;
+    padding-top: 2em;
+    padding-bottom: 1px;
+    font-size: .8em;
+    text-align: center;
+    font-weight: thin;
+}
+
+.text {
+    padding-top: 1.5em;
+    width: 90%;
+    margin: 0 auto; 
+}
+
+hr {
+    width: 45%;
+}
+
+footer {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.footerlinks {
+    float: left;
+}
+
+.footerlinks ul {
+    list-style-type: none;
+}
+
+.footerlinks ul li {
+    color: lightgrey;
+    display: inline;
+    margin-right: 1em;
+}
+
+.copyright p {
+    color: lightgrey;
+    clear: both;
+    text-align: center;
+    padding-top: 3em;
 }
