@@ -1,0 +1,61 @@
+body {
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo img, h1 {
+    float: left;
+}
+
+.logo img {
+    position: relative;
+    top: 20px;
+}
+
+.links ul {
+    list-style-type: none;
+    float: right;
+}
+
+.links li {
+    display: inline;
+    padding: 20px;
+}
+
+.title {
+    clear: both;
+}
+
+main {
+    width: 50%;
+    margin: 0 auto;
+}
+
+main h2 {
+    text-align: center;
+    line-height: .5em;
+}
+
+main.text {
+    text-align: left;
+}
+
+.social {
+    width: 150px;
+    margin: 0 auto;
+}
+
+main button {
+    background-color: lightblue;
+    color: white;
+    border-radius: 5px;
+}
