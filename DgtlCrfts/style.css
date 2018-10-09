@@ -5,7 +5,7 @@ body {
 }
 
 .content {
-    width: 65%;
+    width: 60%;
     margin: 0 auto;
     background-color: #F4F4F4;
     border: 1px solid black;
@@ -116,12 +116,13 @@ h3 {
 }
 
 .icons {
+    position: absolute;
     width: 70%;
-    margin: 0 auto;
+    left: 20%;
 }
 
 .icon {
-    position: relative;
+    /* position: relative; */
     width: 28%;
     margin-right: 2em;
     float: left;
@@ -167,32 +168,46 @@ h3 {
 
 .users h2 {
     position: absolute;
-    left: 1em;
+    left: .5em;
     font-size: 2em;
     font-weight: lighter;
 }
 
-.users p {
-    text-align: center;
-}
 
 .hashtags h2 {
     position: absolute;
     font-size: 2em;
     font-weight: lighter;
+    bottom: -5;
 }
 
-.hashtags p {
-    text-align: center;
-}
 
 .moolah h2 {
     position: absolute;
+    right: 3.7em;
     font-size: 2em;
     font-weight: lighter;
 }
 
+.users p {
+    position: absolute;
+    width: 120px;
+    bottom: -200px;
+    text-align: center;
+}
+
+.hashtags p {
+    width: 120px;
+    position: absolute;
+    bottom: -200px;
+    text-align: center;
+}
+
 .moolah p {
+    position: absolute;
+    width: 120px;
+    bottom: -180px;
+    left: 480px;
     text-align: center;
 }
 
