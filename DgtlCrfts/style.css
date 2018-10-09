@@ -4,11 +4,17 @@ body {
 }
 
 .content {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
 /* HEADER */
+
+.header {
+    background-image: url("img/atl.png");
+    background-repeat: no-repeat;
+}
+
 
 ul {
     list-style-type: none;
@@ -20,9 +26,9 @@ ul li a {
     color: #868686;
 }
 
-.header {
-    background-image: "img/atl.png";
-    background-repeat: no-repeat;
+a:hover {
+    color: white;
+    text-decoration: underline;
 }
 
 .arrow {
@@ -30,33 +36,45 @@ ul li a {
     border-width: 0 2px 2px 0;
     display: inline-block;
     padding: 3px;
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 }
 
 /* MAIN */
 
+.icons {
+    margin: 0 auto;
+}
+
 .icon {
+    width: 33%;
+    float: left;
+}
+
+.at, .hash, .dollar {
     font-size: 6em;
+    width: 120px;
+    height: 120px;
     border-radius: 100%;
 }
 
 .at {
-    border: 5px solid #F07833;
+    border: 10px solid #F07833;
 }
 
 .hash {
-    border: 5px solid #7BC043;
+    border: 10px solid #7BC043;
 }
 
 .dollar {
-    border: 5px solid #3C8ABF;
+    border: 10px solid #3C8ABF;
 }
 
 /* FOOTER */
 
 .footer {
     background-color: #515151;
+    clear: both;
 }
 
 .footlinks {
