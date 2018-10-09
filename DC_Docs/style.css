@@ -10,7 +10,7 @@ nav {
     float: left;
     background-color: #555555;
     color: #DBDBDB;
-    height: 600px;
+    height: 620px;
     width: 160px;
     font-size: 1.1em;
     font-weight: bold;
@@ -36,7 +36,7 @@ form {
 ul {
     list-style-type: none;
     padding: 0;
-    margin-left: 1em;
+    margin-left: .3em;
 }
 
 ul a {
@@ -60,10 +60,16 @@ a:hover {
 
 /*MAIN*/
 
+main {
+    width: 800px;
+    margin: 0 0 0 8em;
+    position: relative;
+}
+
 .header {
+    padding-top: 1.6em;
     position: relative;
     width: 650px;
-    /* margin: 0 auto; */
 }
 
 p.welcome {
@@ -73,8 +79,70 @@ p.welcome {
 
 h1 {
     position: absolute;
-    top: 2px;
-    left: 320px;
+    top: 1.1em;
+    left: 190px;
     font-weight: normal;
     font-size: 2.2em;
+}
+
+.quoteblock {
+    position: relative;
+    left: 100px;
+    background-color: #DEDAD9;
+    border-left: 5px solid #AAA6A3;
+    color: #B2AEAD;
+    width: 700px;
+    height: 100px;
+    font-style: italic;
+}
+
+.quote {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 600px;
+    height: 100px;
+    text-indent: 1em;
+    /* border: 2px solid black; */
+}
+
+.quotetext {
+    position: absolute;
+    top: 0;
+    left: -20px;
+    line-height: 1.5em;
+    font-size: 1em;
+}
+
+.quotebefore, .quoteafter {
+    display: inline-block;
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+    height: 10px;
+    
+}
+
+.quotebefore {
+    position: absolute;
+    top: -15px;
+    left: -40px;
+}
+
+.quoteafter {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+#attribution {
+    position: absolute;
+    bottom: -5px;
+    right: 180px;
+    text-align: right;
+}
+
+h2 {
+    font-size: .7em;
+    margin-top: 3em;
 }
