@@ -1,11 +1,15 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
+    background-color: #DDDDDD
 }
 
 .content {
     width: 65%;
     margin: 0 auto;
+    background-color: #F4F4F4;
+    border: 1px solid black;
+    padding: 2px;
 }
 
 /* HEADER */
@@ -94,19 +98,40 @@ h3 {
 
 /* MAIN */
 
+.main {
+    height: 600px;
+    position: relative;
+    background-color: #F4F4F4;
+}
+
+.tagline {
+    margin: 0 auto;
+}
+
+.tagline p {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 2em;
+    padding: 2em;
+}
+
 .icons {
+    width: 70%;
     margin: 0 auto;
 }
 
 .icon {
-    width: 33%;
+    position: relative;
+    width: 28%;
+    margin-right: 2em;
     float: left;
 }
 
 .at, .hash, .dollar {
-    font-size: 6em;
-    width: 120px;
-    height: 120px;
+    position: relative;
+    font-size: 5em;
+    width: 110px;
+    height: 110px;
     border-radius: 100%;
 }
 
@@ -122,18 +147,80 @@ h3 {
     border: 10px solid #3C8ABF;
 }
 
+.at span {
+    position: absolute;
+    top: 8%;
+    left: 15%;
+}
+
+.hash span {
+    position: absolute;
+    top: 15%;
+    left: 30%;
+}
+
+.dollar span {
+    position: absolute;
+    top: 15%;
+    left: 30%;
+}
+
+.users h2 {
+    position: absolute;
+    left: 1em;
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+.users p {
+    text-align: center;
+}
+
+.hashtags h2 {
+    position: absolute;
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+.hashtags p {
+    text-align: center;
+}
+
+.moolah h2 {
+    position: absolute;
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+.moolah p {
+    text-align: center;
+}
+
 /* FOOTER */
 
 .footer {
+    position: relative;
     background-color: #515151;
     clear: both;
+    height: 150px;
 }
 
-.footlinks {
-    margin: 0 auto;
+.footlinks ul {
+    position: absolute;
+    top: 20%;
+    right: 30%;
+}
+
+.footlinks ul li {
+    padding: 1em;
+    font-size: 1.5em;
+    font-weight: lighter;
 }
 
 .copyright {
+    position: absolute;
+    bottom: 2px;
+    right: 41%;
     color: #868686;
-    font-size: .6em;
+    font-size: .8em;
 }
